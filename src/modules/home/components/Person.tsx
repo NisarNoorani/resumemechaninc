@@ -4,31 +4,11 @@ const persons = [
   {
     name: 'Sadanand Pai',
     role: 'Frontend Engineer',
-    avatar: 'https://avatars.githubusercontent.com/u/12962887?v=4',
-    github: 'https://github.com/sadanandpai',
-    linkedin: 'https://www.linkedin.com/in/sadanandpai/',
+    avatar: 'https://res.cloudinary.com/dvbc6ctqu/image/upload/v1733687656/11ee-be56-0242ac120055_wukncq.jpg',
+    github: 'https://github.com/NisarNoorani',
+    linkedin: 'https://www.linkedin.com/in/nisar-noorani-a99a9b337/',
   },
-  {
-    name: 'Gopalakrishnan',
-    role: 'Frontend Engineer',
-    avatar: 'https://avatars.githubusercontent.com/u/22369081?v=4',
-    github: 'https://github.com/gopal1996',
-    linkedin: 'https://www.linkedin.com/in/gopal1996',
-  },
-  {
-    name: 'Vivek G',
-    role: 'Product designer, UI developer',
-    avatar: 'https://avatars.githubusercontent.com/u/26523871?v=4',
-    github: 'https://github.com/yakshaG',
-    linkedin: 'https://www.linkedin.com/in/vivek-g-india',
-  },
-  {
-    name: 'Siva K',
-    role: 'Frontend Engineer',
-    avatar: 'https://avatars.githubusercontent.com/u/60533560?v=4',
-    github: 'https://github.com/siva-kannan3',
-    linkedin: 'https://www.linkedin.com/in/siva-kannan3/',
-  },
+  
 ];
 
 const PersonCard = ({ children }: { children: React.ReactNode }) => (
