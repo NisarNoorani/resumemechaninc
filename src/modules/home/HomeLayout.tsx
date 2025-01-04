@@ -177,7 +177,7 @@ const HomeLayout = () => {
           along!
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          <Person />
+          
         </div>
         <p className="text-resume-400 my-8 text-center lg:text-left">
           Read our design story on&nbsp;
