@@ -39,11 +39,9 @@ const HomeLayout = () => {
                 Contribute
               </StyledButton>
             </Link>
-            <Link href="#about-us" passHref={true}>
-              <StyledButton variant="text">About us</StyledButton>
-            </Link>
+            
             <a
-              href={'https://github.com/sadanandpai/resume-builder'}
+              href={'https://github.com/NisarNoorani/resumemechaninc'}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -151,7 +149,7 @@ const HomeLayout = () => {
               </div>
               <div>
                 <a
-                  href="https://github.com/sadanandpai/resume-builder"
+                  href="https://github.com/NisarNoorani/resumemechaninc"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -165,32 +163,7 @@ const HomeLayout = () => {
         </div>
       </div>
 
-      <div
-        id="about-us"
-        className="mx-6 md:mx-40 xl:mx-60 my-32"
-        style={{ fontFamily: "'Roboto Slab', serif" }}
-      >
-        <h2 className="text-resume-800 text-3xl mb-2 text-center lg:text-left">About us</h2>
-        <p className="text-resume-400 mb-8 text-center lg:text-left">
-          A bunch of developers and designers — who love to build open source projects and learn
-          along!
-        </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          
-        </div>
-        <p className="text-resume-400 my-8 text-center lg:text-left">
-          Read our design story on&nbsp;
-          <a
-            href="https://medium.com/@yakshag/e-resume-build-a-professional-resume-design-case-study-3dc02a6359ea"
-            target="_blank"
-            rel="noreferrer"
-            className="underline"
-          >
-            Medium
-          </a>
-          ↗
-        </p>
-      </div>
+    
     </motion.div>
   );
 };
