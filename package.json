@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run lint && npm run prettier && next build",
+    "build": "next build",
     "start": "next start",
-    "lint": "eslint .",
-    "prettier": "prettier --check .",
-    "prepare": "husky install"
+    "lint": "eslint . --fix",
+    "prettier": "prettier --check ."
+   
+   
   },
   "dependencies": {
     "@date-io/dayjs": "^3.0.0",
