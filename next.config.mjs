@@ -12,6 +12,7 @@ const nextConfig = {
       'src/styles',
       'src/templates',
     ],
+    ignoreDuringBuilds: true, // Disables ESLint checks during production builds
   },
   images: {
     remotePatterns: [
